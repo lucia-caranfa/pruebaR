@@ -1,0 +1,14 @@
+.formulario1 {
+    background-color: aquamarine;
+    color: #000;
+    height: 50px;
+}
+
+.formulario2 {
+    background-color: blueviolet;
+    height: 110px;
+    width: 200px;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 10px;
+}
