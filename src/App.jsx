@@ -9,7 +9,8 @@ import Estado from './components/Estado'
 import RenderizadoCond from './components/RenderizadoCond'
 import RendLista from './components/RendLista'
 import RendElem from './components/RendElem'
-import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos"
+import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos"
+
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -53,7 +54,7 @@ function App() {
       <RendElem />
       <EventosES6 />
       <EventosES7 />
-      <MasSobreEventos/>
+      <MasSobreEventos />
     </>
   )
 }
