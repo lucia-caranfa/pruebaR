@@ -10,6 +10,9 @@ import RenderizadoCond from './components/RenderizadoCond'
 import RendLista from './components/RendLista'
 import RendElem from './components/RendElem'
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos"
+import ContadorHooks from './components/ContadorHooks'
+import RelojHooks from './components/RelojHooks'
+
 
 
 function App() {
@@ -55,6 +58,8 @@ function App() {
       <EventosES6 />
       <EventosES7 />
       <MasSobreEventos />
+      <ContadorHooks />
+      <RelojHooks />
     </>
   )
 }
