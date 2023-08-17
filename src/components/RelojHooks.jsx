@@ -14,7 +14,7 @@ if (visible) { //si visible es true, inicia el temporizador y se va actualizando
     temporizador = setInterval(()=>{
         setHour(new Date().toLocaleTimeString())
     },1000)
-} else {
+} else {  //si visible es false, se limpia el temporizador y se detiene
     clearInterval(temporizador);
     return ()=> { clearInterval(temporizador)}
 }

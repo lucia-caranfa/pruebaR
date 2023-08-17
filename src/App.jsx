@@ -12,6 +12,7 @@ import RendElem from './components/RendElem'
 import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos"
 import ContadorHooks from './components/ContadorHooks'
 import RelojHooks from './components/RelojHooks'
+import Estilos from './components/Estilos'
 
 
 
@@ -60,6 +61,7 @@ function App() {
       <MasSobreEventos />
       <ContadorHooks />
       <RelojHooks />
+      <Estilos/>
     </>
   )
 }
